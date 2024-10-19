@@ -1,0 +1,32 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-body {
+    background-color: white;
+    min-width: 300px;
+    min-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px color(#999);
+    padding: 20px;
+}
+
+.bt2 {
+    background-color: #003670;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.bt2:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,26 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+    margin: 20px;
+}
+
+input {
+    font-size: 2rem;
+    padding: 15px 20px 15px 40px;
+    background-image: url(searchicon.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 10px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    outline: none;
+    width: 100px;
+    transition: all 0.4s ease;
+}
+
+input:focus {
+    width: 300px;
+}
